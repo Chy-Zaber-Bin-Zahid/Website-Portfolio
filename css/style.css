@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* Header part */
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/* grid */
+.grid{
+  display: grid;
+}
+
+.grid-2-col{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-4-col{
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,53 @@
+/* Media quiries part */
+/* 1400px below */
+@media (max-width: 65.5em) {
+  .nav-li{
+    font-size: 1.5rem;
+  }
+
+  .intro-name {
+    font-size: 6rem;
+  }
+
+  .about-title {
+    font-size: 3.2rem;
+  }
+
+  .about-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .about-img {
+  width: 30rem;
+  height: 32rem;
+
+}
+
+  .exp-title{
+    font-size: 3.2rem;
+  }
+
+  .exp-skill{
+    font-size: 1.7rem;
+  }
+
+  .exp-icon{
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+
+  .contact-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    
+  }
+
+  .contact-a{
+    font-size: 1.6rem;
+  }
+
+  .footer-p{
+    font-size: 1.4rem;
+  }
+
+}

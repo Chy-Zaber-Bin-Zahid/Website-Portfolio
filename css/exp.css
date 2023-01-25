@@ -1,0 +1,59 @@
+/* Experience part */
+.exp-title{
+  text-align: center;
+  font-style: italic;
+  padding: 3rem 0;
+  text-decoration: underline;
+  font-size: 3.8rem;
+  color: #111;
+  
+}
+
+.exp-skill-box{
+  padding-bottom: 8.8rem;
+}
+
+.exp-skill{
+  list-style: none;
+  font-size: 2rem;
+  row-gap: 2rem;
+  margin: 0 10rem;
+}
+
+.exp-skill-li{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.exp-icon{
+  margin-right: 1rem;
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.html{
+  color: rgb(223, 147, 6);
+}
+
+.css{
+  color: rgb(12, 12, 207);
+}
+
+.jss{
+  color: rgb(236, 236, 5);
+}
+
+.python{
+  color: rgb(89, 3, 160);
+}
+
+.react{
+  color: aqua;
+}
+
+.rest{
+  color: rgb(3, 155, 3);
+}

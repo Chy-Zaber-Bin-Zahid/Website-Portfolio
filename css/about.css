@@ -1,0 +1,59 @@
+/* About part */
+.about-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/img/tech-quote.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.about-title {
+  text-align: center;
+  font-style: italic;
+  padding: 3rem 0;
+  text-decoration: underline;
+  font-size: 3.8rem;
+  color: #333;
+}
+
+.about-bottom {
+  padding-bottom: 9.8rem;
+}
+
+.about-img-box {
+  text-align: center;
+}
+
+.about-img {
+  width: 34rem;
+  height: 36rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.about-text-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 5rem;
+  background-color: rgba(197, 196, 196, 0.726);
+  border-radius: 7px;
+  width: 90%;
+}
+
+.about-paragraph {
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+.about-a{
+  text-decoration: none;
+  color: rgb(39, 39, 230);
+  font-weight: bold;
+  transition: all .3s;
+}
+
+.about-a:hover{
+  color: #06a4cc;
+}

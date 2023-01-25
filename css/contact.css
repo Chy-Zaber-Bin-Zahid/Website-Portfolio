@@ -1,0 +1,44 @@
+/* Contact Part */
+.contact-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0rem 0rem 5rem 0rem;
+}
+
+.contact-a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  color: #111;
+  transition: all 0.3s;
+}
+
+.contact-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  
+}
+
+.fb:hover {
+  color: #385898;
+}
+
+.insta:hover {
+  color: #9b36b7;
+}
+
+.gmail:hover {
+  color: red;
+}
+
+.linke:hover {
+  color: #0072b1;
+}
+
+/* map section */
+.map-section {
+  width: 100%;
+}
