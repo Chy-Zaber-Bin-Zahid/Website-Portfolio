@@ -56,25 +56,33 @@
   }
 
   .intro-text {
-
     font-size: 2.3rem;
   }
 
+  .about-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about-text-box {
-    padding: 3rem 5rem;
+    padding: 3rem 3rem;
+    height: 24rem;
+    align-items: center;
   }
 
   .about-paragraph {
     font-size: 1.3rem;
+    line-height: 1.2;
   }
 
   .about-img {
-    width: 26rem;
-    height: 28rem;
+    width: 22rem;
+    height: 24rem;
   }
 
   .about-title,
-  .exp-title  {
+  .exp-title {
     font-size: 3rem;
   }
 
@@ -84,16 +92,25 @@
     display: flex;
   }
 
-  .edu-table{
+  .exp-skill {
+    font-size: 1.5rem;
+  }
+
+  .exp-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .edu-table {
     padding: 0rem 5rem 4rem 5rem;
   }
 
-  .edu-para{
+  .edu-para {
     font-size: 1.2rem;
     font-weight: 600;
   }
-  
-  .edu-title{
+
+  .edu-title {
     font-size: 1.6rem;
   }
 
