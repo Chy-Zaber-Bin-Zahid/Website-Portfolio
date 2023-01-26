@@ -76,6 +76,10 @@
     line-height: 1.2;
   }
 
+  .about-bottom {
+    padding-bottom: 7rem;
+  }
+
   .about-img {
     width: 22rem;
     height: 24rem;
@@ -101,6 +105,11 @@
     height: 3.2rem;
   }
 
+  .exp-skill{
+    margin: 0rem;
+  }
+
+
   .edu-table {
     padding: 0rem 5rem 4rem 5rem;
   }
@@ -125,5 +134,78 @@
 
   .footer-p {
     font-size: 1.2rem;
+  }
+}
+
+/* Bellow 700px media */
+@media (max-width: 43.5em) {
+  .nav-li{
+
+    font-size: 1.4rem;
+  }
+
+  .intro-name {
+    font-size: 3.5rem;
+  }
+
+  .intro-text {
+    font-size: 1.8rem;
+  }
+
+  .about-title,
+  .exp-title {
+    font-size: 2.8rem;
+  }
+
+  .about-bottom {
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-text-box {
+    padding: 0rem 3rem;
+    height: 22rem;
+    margin: 2.4rem;
+    align-items: center;
+  }
+
+  .about-paragraph {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .exp-skill{
+    margin: 0rem;
+  }
+
+  .exp-skill-box{
+    padding-bottom: 8rem;
+  }
+
+  .edu-table {
+    padding: 0rem 2rem 4rem 2rem;
+  }
+
+  .edu-para {
+    text-align: center;
+  }
+
+  .edu-para,
+  .edu-title {
+    border-bottom: 2px solid black;
+  }
+
+  .border-l {
+    border-left: 2px solid black;
+  }
+
+  .border-t{
+    border-top: 2px solid black;
+  }
+
+  .border-r{
+    border-right: 2px solid black
+    ;
   }
 }
