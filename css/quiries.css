@@ -1,7 +1,7 @@
 /* Media quiries part */
 /* 1400px below */
 @media (max-width: 65.5em) {
-  .nav-li{
+  .nav-li {
     font-size: 1.5rem;
   }
 
@@ -18,20 +18,19 @@
   }
 
   .about-img {
-  width: 30rem;
-  height: 32rem;
+    width: 30rem;
+    height: 32rem;
+  }
 
-}
-
-  .exp-title{
+  .exp-title {
     font-size: 3.2rem;
   }
 
-  .exp-skill{
+  .exp-skill {
     font-size: 1.7rem;
   }
 
-  .exp-icon{
+  .exp-icon {
     width: 3.4rem;
     height: 3.4rem;
   }
@@ -39,15 +38,75 @@
   .contact-icon {
     width: 3.2rem;
     height: 3.2rem;
-    
   }
 
-  .contact-a{
+  .contact-a {
     font-size: 1.6rem;
   }
 
-  .footer-p{
+  .footer-p {
     font-size: 1.4rem;
   }
+}
 
+/* 920px below media */
+@media (max-width: 57.5em) {
+  .intro-name {
+    font-size: 5rem;
+  }
+
+  .intro-text {
+
+    font-size: 2.3rem;
+  }
+
+  .about-text-box {
+    padding: 3rem 5rem;
+  }
+
+  .about-paragraph {
+    font-size: 1.3rem;
+  }
+
+  .about-img {
+    width: 26rem;
+    height: 28rem;
+  }
+
+  .about-title,
+  .exp-title  {
+    font-size: 3rem;
+  }
+
+  .about-img-box {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .edu-table{
+    padding: 0rem 5rem 4rem 5rem;
+  }
+
+  .edu-para{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .edu-title{
+    font-size: 1.6rem;
+  }
+
+  .contact-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .contact-a {
+    font-size: 1.3rem;
+  }
+
+  .footer-p {
+    font-size: 1.2rem;
+  }
 }
