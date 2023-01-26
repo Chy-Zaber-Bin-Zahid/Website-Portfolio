@@ -208,4 +208,13 @@
     border-right: 2px solid black
     ;
   }
+
+  footer{
+    padding: 2rem;
+  }
+
+  .footer-p {
+    font-size: 1rem;
+  }
+}
 }
