@@ -40,6 +40,9 @@
             <li class="nav-li">
               <a class="nav-a" href="#contact">Contact Me</a>
             </li>
+            <li class="nav-li">
+              <a class="nav-a" href="#location">Location</a>
+            </li>
           </ul>
         </nav>
           <!-- <div class="intro-img">
@@ -54,7 +57,6 @@
             </p>
           </div>
         </div>
-      </div>
     </header>
 
     <main>
@@ -77,7 +79,7 @@
                     >Brac University</a
                   >. I am from the Computer Science department. I live in a place called Moddo Badda which is famous for having many street foods. I love to watch Anime. Japanese Animation is known as ANIME. My father is a businessman and my mother is a housewife. I also have three siblings among them I am the second youngest. Currently, I am learning React Js from
                   <a target="_blank" class="about-a" href="https://www.youtube.com/">Youtube</a>
-                  and <a target="_blank" class="about-a" href="https://www.udemy.com/">Udemy</a>. My favorite quote is “<i>As long as you're still alive, you always have the chance to start again.</i>” &dash; Emily Acker
+                  and <a target="_blank" class="about-a" href="https://www.udemy.com/">Udemy</a>. This portfolio website is going to be submitted in this place called <a target="_blank" class="about-a" href="https://piazza.com/class/ld9m5xqo1fp4zg/post/6">Piazza</a>. My favorite quote is “<i>As long as you're still alive, you always have the chance to start again.</i>” &dash; Emily Acker
                 </p>
               </div>
             </div>
@@ -157,40 +159,83 @@
       </section>
 
       <!-- Contact Me Part -->
-      <section id="contact" class="contact-section">
-        <h1 class="exp-title">Contact Me</h1>
-        <div class="container contact-box">
-          <a target="_blank" class="contact-a fb" href="https://www.facebook.com/chowdhuryzaber.binzahid/"
-            ><ion-icon class="contact-icon" name="logo-facebook"></ion-icon
-            ><span>Facebook</span></a
-          >
-          <a target="_blank" class="contact-a insta" href="https://www.instagram.com/chy_zaber/?next=%2F"
-            ><ion-icon
-              class="contact-icon "
-              name="logo-instagram"
-            ></ion-icon
-            ><span>Instagram</span></a
-          >
-          <a target="_blank"
-            class="contact-a gmail"
-            href="mailto:chowdhury.zaber.bin.zahid@g.bracu.ac.bd"
-          >
-            <ion-icon class="contact-icon " name="mail"> </ion-icon>
-            <span>Mail</span></a
-          >
-          <a target="_blank"
-            class="contact-a linke"
-            href="https://www.linkedin.com/in/chy-zaber-bin-zahid-8374b221b/"
-          >
-            <ion-icon class="contact-icon " name="logo-linkedin">
-            </ion-icon>
-            <span>Linkedin</span></a
-          >
+      <section id="contact" class="contact-section grid contact-grid">
+        <div class="contact-left">
+          <h1 class="exp-title con-title">Contact Me</h1>
+          <div class="container contact-box grid grid-2-col">
+            <a target="_blank" class="contact-a fb" href="https://www.facebook.com/chowdhuryzaber.binzahid/"
+              ><ion-icon class="contact-icon" name="logo-facebook"></ion-icon
+              ><span>Facebook</span></a
+            >
+            <a target="_blank" class="contact-a insta" href="https://www.instagram.com/chy_zaber/?next=%2F"
+              ><ion-icon
+                class="contact-icon "
+                name="logo-instagram"
+              ></ion-icon
+              ><span>Instagram</span></a
+            >
+            <a target="_blank"
+              class="contact-a gmail"
+              href="mailto:chowdhury.zaber.bin.zahid@g.bracu.ac.bd"
+            >
+              <ion-icon class="contact-icon " name="mail"> </ion-icon>
+              <span>Mail</span></a
+            >
+            <a target="_blank"
+              class="contact-a linke"
+              href="https://www.linkedin.com/in/chy-zaber-bin-zahid-8374b221b/"
+            >
+              <ion-icon class="contact-icon " name="logo-linkedin">
+              </ion-icon>
+              <span>Linkedin</span></a
+            >
+          </div>
+        </div>
+
+        <div class="contact-send">
+          <div class="contact-right">
+            <h3 class="send-title">Send Message</h3>
+            <div class="upload">
+              <img class="default" src="/img/noprofil.jpg" width = 120 height = 120 alt="">
+              <div class="round">
+                <input class="image-upload" type="file" accept="image/png, image/jpg">
+                <svg class="camera" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z" />
+                </svg>
+                
+                
+              </div>
+            </div>
+            <input type="text" required placeholder="Email Address"></input>
+            <input required placeholder="Your Name"></input>
+            <input type="text" required placeholder="Subject"></input>
+            <input type="tel" required placeholder="Phone No."></input>
+            <textarea id="msg" minlength="10" rows="2"  placeholder="Message" spellcheck="false"></textarea>
+            <button class="contact-btn">
+              Send <ion-icon name="paper-plane-outline"></ion-icon> 
+            </button>
+          </div>
         </div>
       </section>
 
-      <section>
-        <iframe
+      <section id="location" class="section-location">
+        <div class="back-loc"></div>
+       <div class="loc-posi">
+        <h1 class="exp-title loc-title">Page Location</h1>
+        <div class="center">
+          <div class="cont">
+            <div id="location-details">Click To See Page Current Location</div>
+            <button id="get-location">Get Location</button>
+            <p class="last-modified"></p>
+          </div>
+        </div>
+       </div>
+       
+
+
+        <!-- <div>
+          <iframe
           class="map-section"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0803986958126!2d90.40498171520436!3d23.780151193555525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7715a40c603%3A0xec01cd75f33139f5!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1674635969526!5m2!1sen!2sbd"
           width="600"
@@ -200,6 +245,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        </div> -->
       </section>
     </main>
 
