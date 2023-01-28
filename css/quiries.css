@@ -131,13 +131,43 @@
     font-size: 1.3rem;
   }
 
+  input,
+  textarea {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .upload .round {
+    width: 30px;
+    height: 30px;
+  }
+
+  .camera {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact-btn {
+    font-size: 1.5rem;
+  }
+
+  .cont {
+    font-size: 1.5rem !important;
+  }
+
+  .last-modified {
+    font-size: 1.5rem !important;
+  }
+
   .footer-p {
     font-size: 1.2rem;
   }
+
+ 
 }
 
 /* Bellow 700px media */
-@media (max-width: 43.5em) {
+@media (max-width: 45em) {
   .nav-li {
     font-size: 1.4rem;
   }
@@ -206,6 +236,38 @@
     border-right: 2px solid black;
   }
 
+  input,
+  textarea {
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+  }
+
+  .upload .round {
+    width: 27px;
+    height: 27px;
+  }
+
+  .camera {
+    width: 23px;
+    height: 23px;
+  }
+
+  .contact-btn {
+    font-size: 1.3rem;
+  }
+
+  .cont {
+    font-size: 1.3rem !important;
+  }
+
+  .last-modified {
+    font-size: 1.3rem !important;
+  }
+
+  .google-title{
+    font-size: 1.6rem !important;
+  }
+
   footer {
     padding: 2rem;
   }
@@ -215,20 +277,51 @@
   }
 }
 
+@media (max-width: 37.5em){
+  .section-location{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loc-title{
+    padding-top: 1.8rem !important;
+  }
+}
+
 /* Smartphone responsive */
-@media (max-width: 31.2em) {
-  .nav-ul{
+@media (max-width: 31.3em) {
+  .nav-ul {
     padding: 1rem 0;
     flex-direction: column;
     gap: 1rem;
   }
 
   .intro-name {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 
   .intro-text {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+  }
+
+  .contact-section{
+    grid-template-columns: 1fr;
+  }
+
+  .con-title{
+    padding: 2rem 0;
+  }
+
+  .contact-send {
+    padding: 3rem 0rem;
+  }
+
+  .contact-left{
+    border-bottom: 2px dotted gray;
+  }
+
+  .send-title{
+    font-size: 1.7rem;
   }
 
   .about-title,
@@ -244,7 +337,7 @@
 
   .about-text-box {
     padding: 0rem 3rem;
-    height: 42rem;
+    height: 30rem;
     margin: 2.4rem;
     align-items: center;
   }
@@ -258,6 +351,47 @@
     padding-bottom: 4rem;
   }
 
+  input,
+  textarea {
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+  }
+
+  .upload .round {
+    width: 25px;
+    height: 25px;
+  }
+  /* .default{
+    width: 12.5rem;
+    height: 12.5rem;
+  } */
+
+  .camera {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-btn {
+    font-size: 1.3rem;
+  }
+
+  .cont {
+    font-size: 1.4rem !important;
+  }
+
+  .last-modified {
+    font-size: 1.4rem !important;
+  }
+
+  .google-title{
+    font-size: 1.3rem !important;
+  }
+
+  #get-location {
+    font-size: 1.1rem !important;
+    padding: .5rem 1rem !important; 
+  }
+
   .exp-icon {
     width: 2.8rem;
     height: 2.8rem;
@@ -269,10 +403,10 @@
   }
 
   .edu-table {
-    padding: 0rem .3rem 4rem .3rem;
+    padding: 0rem 0.3rem 4rem 0.3rem;
   }
 
-  .edu-title{
+  .edu-title {
     font-size: 1.3rem;
   }
 
@@ -288,4 +422,81 @@
   .contact-a {
     font-size: 1.2rem;
   }
+}
+
+@media (max-width: 24.5em){
+  .intro-name {
+    font-size: 1.8rem;
+  }
+
+  .intro-text {
+    font-size: 1.2rem;
+  }
+
+  .about-img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .about-paragraph{
+    font-size: 1.04rem;
+  }
+
+  .about-text-box {
+    padding: 0rem 3rem;
+    height: 32.5rem;
+    margin: 2.4rem;
+    align-items: center;
+  }
+
+  .about-title,
+  .exp-title{
+    font-size: 2rem;
+  }
+
+  .exp-skill {
+    font-size: 1.4rem;
+  }
+
+  .exp-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  input,
+  textarea {
+    padding: 1rem 0rem;
+    font-size: 1.3rem;
+  }
+
+  .contact-right {
+    padding: 2rem;
+  }
+
+  .upload{
+    border: 1px solid #f4c613;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+        .default{
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .cont {
+    font-size: 1.2rem !important;
+  }
+
+  .last-modified {
+    font-size: 1.2rem !important;
+  }
+
+  .footer-p {
+    font-size: .84rem;
+  }
+
 }
