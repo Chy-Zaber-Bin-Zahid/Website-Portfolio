@@ -34,7 +34,6 @@ imgStore.addEventListener("change", () => {
   let reader = new FileReader();
   reader.readAsDataURL(imgStore.files[0]);
   reader.addEventListener("load", () => {
-    console.log(reader.result);
     document.querySelector(".default").src = `${reader.result}`;
   });
 });
@@ -77,5 +76,5 @@ const showLocation = async (position) => {
 const alert = document.lastModified;
 document.querySelector(
   ".last-modified"
-).textContent = `Last modified: ${alert}`;
+).textContent = `Page Last modified: ${alert}`;
 console.log(alert);
