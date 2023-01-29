@@ -1,7 +1,7 @@
 /* Education part */
 .edu-section{
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(/img/edu.jpg);
+    url(/edu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
