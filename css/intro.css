@@ -1,7 +1,7 @@
 /* Introduction part */
 .intro-bg {
   height: 100vh;
-  background-image: url(/infoBack.gif);
+  background-image: url(/Sequence\ 01.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -43,5 +43,5 @@
 }
 
 .intro-p-blue {
-  color: #05b0db;
+  color: #000000;
 }

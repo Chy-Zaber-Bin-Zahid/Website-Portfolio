@@ -2,17 +2,96 @@
 .contact-grid {
   grid-template-columns: 1fr 1fr;
   /* padding-bottom: 4.5rem; */
+  padding: 6rem 0rem;
+  margin: 0 auto;
+  width: 85%;
 }
 
 .contact-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0rem;
+  position: relative;
+}
+
+.contact-left-top{
+  padding-left: 4rem;
 }
 
 .con-title {
   padding-top: 0;
+  text-align: left;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  font-style: normal;
+}
+
+.contact-span{
+  font-weight: normal;
+}
+
+.contact-title-p{
+  font-size: 1.7rem;
+}
+
+.contact-float{
+  position:absolute;
+  font-size: 1.8rem;
+  color: #f4c613;
+  top: 10%;
+  left: -8%;
+  transform: rotate(270deg);
+}
+
+.contact-middle{
+
+}
+
+.con-mid-pad{
+  padding: .5rem 0;
+}
+
+.con-mid-tit{
+font-size: 3rem;
+font-weight: normal;
+}
+
+.con-mid-p{
+  font-size: 1.6rem;
+
+}
+
+.con-mid-p a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.con-mid-p a:hover {
+  text-decoration: underline;
+  color: #f4c613;
+}
+
+.contact-icon{
+  width: 3rem;
+  height: 3rem;
+  padding-top: .5rem;
+}
+
+.contact-a{
+  transition: all 0.3s;
+  color: black;
+}
+
+.contact-a:hover {
+  color: #f4c613;
+}
+/* .contact-img{
+  color: rgb(218, 13, 13);
 }
 
 .contact-box {
@@ -50,10 +129,10 @@
 
 .linke:hover {
   color: #0072b1;
-}
+} */
 
 .contact-send {
-  padding: 4rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .contact-right {
@@ -72,6 +151,10 @@
   font-size: 2.5rem;
   border-bottom: 1px solid #dbb211;
   padding-bottom: 1.5rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input,

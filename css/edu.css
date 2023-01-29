@@ -23,6 +23,27 @@
   background-color: rgba(255, 255, 255, 0.568);
 }
 
+.edu-title-two{
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+.edu-title-in,
+.edu-title-in-sec{
+  font-size: 1.8rem;
+  padding: .3rem 0;
+}
+
+.edu-title-in-sec{
+  font-size: 1.6rem;
+}
+
 .edu-para{
   font-size: 1.4rem;
   font-weight: 600;

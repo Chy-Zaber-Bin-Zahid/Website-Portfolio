@@ -3,9 +3,17 @@ footer{
   padding: 3rem;
   background-color: #343a40;
   text-align: center;
+  position: relative;
 }
 
 .footer-p{
   color: #f8f9fa;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+}
+
+.modified{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.4rem;
 }
