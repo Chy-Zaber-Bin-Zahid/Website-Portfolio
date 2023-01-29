@@ -77,4 +77,8 @@ const alert = document.lastModified;
 document.querySelector(
   ".last-modified"
 ).textContent = `Page Last modified: ${alert}`;
-console.log(alert);
+
+// page location path
+document.querySelector(
+  ".path"
+).textContent = `Page path: ${window.location.href}`;
