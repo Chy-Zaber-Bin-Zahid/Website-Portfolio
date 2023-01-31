@@ -1,10 +1,10 @@
 /* Nav part */
 nav {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0,0,0,0.3);
+  box-shadow: 0 1.2rem 3.2rem rgba(0,0,0,.3);
 }
 
 .nav-ul {

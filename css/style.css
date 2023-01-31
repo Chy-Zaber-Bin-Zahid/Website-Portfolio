@@ -13,12 +13,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
   font-weight: 400;
+  position: relative;
 }
 
 /* Header part */
 .header {
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 .container{
@@ -37,4 +39,20 @@ body {
 
 .grid-4-col{
   grid-template-columns: repeat(4, 1fr);
+}
+
+/* //////////// */
+.floating-messenger{
+  padding: 1.15rem;
+  background-color: #F4C613;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  bottom: 2.3rem;
+  right: 2.3rem;
+  position: fixed;
+}
+
+.messenger-icon{
+  color: #ffffff;
 }

@@ -39,9 +39,49 @@
 
 .intro-name {
   font-size: 8rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .intro-p-blue {
-  color: #000000;
+  color: #f4c613;
+}
+
+.animationLeft {
+  animation-name: fromLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.animationRight {
+  animation-name: fromRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(150px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

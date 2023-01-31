@@ -69,6 +69,7 @@ font-weight: normal;
   display: flex;
   justify-content: left;
   align-items: center;
+  width: fit-content;
 }
 
 .con-mid-p a:hover {
@@ -225,6 +226,7 @@ input[type="file"]::-webkit-file-upload-button {
   letter-spacing: 1.5px;
   transition: all 0.3s;
 }
+
 
 .contact-btn:hover {
   border: 1px solid #f4c613;
