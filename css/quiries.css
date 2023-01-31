@@ -113,6 +113,14 @@
     padding: 0rem 5rem 4rem 5rem;
   }
 
+  .edu-title-in {
+    font-size: 1.6rem;
+  }
+
+  .edu-title-in-sec {
+    font-size: 1.4rem;
+  }
+
   .edu-para {
     font-size: 1.2rem;
     font-weight: 600;
@@ -122,13 +130,34 @@
     font-size: 1.6rem;
   }
 
+  .contact-right {
+    width: 95%;
+  }
+
+  .contact-float {
+    left: -15%;
+  }
+
+  .con-mid-tit {
+    font-size: 2.5rem;
+  }
+
+  .con-mid-p {
+    font-size: 1.4rem;
+  }
+  
+  
   .contact-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2.6rem;
+    height: 2.6rem;
   }
 
   .contact-a {
     font-size: 1.3rem;
+  }
+
+  .send-title{
+    font-size: 2.2rem;
   }
 
   input,
@@ -162,8 +191,6 @@
   .footer-p {
     font-size: 1.2rem;
   }
-
- 
 }
 
 /* Bellow 700px media */
@@ -178,6 +205,15 @@
 
   .intro-text {
     font-size: 1.8rem;
+  }
+
+  .floating-messenger a{
+    padding: 1rem;
+  }
+
+  .messenger-icon{
+    width: 2.8rem;
+    height: 2.8rem;
   }
 
   .about-title,
@@ -211,8 +247,20 @@
     padding-bottom: 8rem;
   }
 
+  .exp-skill-li{
+    margin-left: 37%;
+  }
+
   .edu-table {
     padding: 0rem 2rem 4rem 2rem;
+  }
+
+  .edu-title-in {
+    font-size: 1.3rem;
+  }
+
+  .edu-title-in-sec {
+    font-size: 1.3rem;
   }
 
   .edu-para {
@@ -220,7 +268,8 @@
   }
 
   .edu-para,
-  .edu-title {
+  .edu-title,
+  .edu-title-two {
     border-bottom: 2px solid black;
   }
 
@@ -252,6 +301,45 @@
     height: 23px;
   }
 
+  .contact-grid {
+    width: 90%;
+  }
+
+  .con-title {
+    font-size: 2.4rem;
+  }
+
+  .contact-title-p {
+    font-size: 1.5rem;
+  }
+
+  .contact-right {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .contact-float {
+    left: -17%;
+    font-size: 1.6rem;
+  }
+
+  .con-mid-tit {
+    font-size: 2.2rem;
+  }
+
+  .con-mid-p {
+    font-size: 1.2rem;
+  }
+
+  .contact-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .send-title{
+    font-size: 1.8rem;
+  }
+
   .contact-btn {
     font-size: 1.3rem;
   }
@@ -264,7 +352,7 @@
     font-size: 1.3rem !important;
   }
 
-  .google-title{
+  .google-title {
     font-size: 1.6rem !important;
   }
 
@@ -277,14 +365,30 @@
   }
 }
 
-@media (max-width: 37.5em){
-  .section-location{
+@media (max-width: 37.5em) {
+  .section-location {
     display: flex;
     flex-direction: column;
   }
 
-  .loc-title{
+  .loc-title {
     padding-top: 1.8rem !important;
+  }
+
+  .edu-title-in-sec {
+    font-size: 1.2rem;
+  }
+
+  .contact-grid {
+    width: 95%;
+  }
+
+  .contact-send {
+    padding: 2rem .8rem;
+  }
+
+  .edu-title-in-sec {
+    font-size: 1.2rem;
   }
 }
 
@@ -296,6 +400,16 @@
     gap: 1rem;
   }
 
+  .floating-messenger a{
+    padding: .7rem;
+  }
+
+  .messenger-icon{
+    width: 2rem;
+    height: 2rem;
+  }
+
+
   .intro-name {
     font-size: 2.5rem;
   }
@@ -304,23 +418,27 @@
     font-size: 1.4rem;
   }
 
-  .contact-section{
+  .contact-section {
     grid-template-columns: 1fr;
   }
 
-  .con-title{
+  .con-title {
     padding: 2rem 0;
+  }
+
+  .contact-grid {
+    width: 80%;
   }
 
   .contact-send {
     padding: 3rem 0rem;
   }
 
-  .contact-left{
+  .contact-left {
     border-bottom: 2px dotted gray;
   }
 
-  .send-title{
+  .send-title {
     font-size: 1.7rem;
   }
 
@@ -383,13 +501,13 @@
     font-size: 1.4rem !important;
   }
 
-  .google-title{
+  .google-title {
     font-size: 1.3rem !important;
   }
 
   #get-location {
     font-size: 1.1rem !important;
-    padding: .5rem 1rem !important; 
+    padding: 0.5rem 1rem !important;
   }
 
   .exp-icon {
@@ -410,6 +528,36 @@
     font-size: 1.3rem;
   }
 
+  .edu-title-in-sec {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .con-title {
+    font-size: 2.4rem;
+    padding: .3rem 0;
+  }
+
+  .contact-title-p {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+
+  .contact-right {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .contact-float {
+    left: -17%;
+    top: 15%;
+    font-size: 1.4rem;
+  }
+
+  .con-mid-tit {
+    font-size: 2rem;
+  }
+
   .contact-box {
     padding: 0rem 0rem 3.5rem 0rem;
   }
@@ -424,7 +572,7 @@
   }
 }
 
-@media (max-width: 24.5em){
+@media (max-width: 24.5em) {
   .intro-name {
     font-size: 1.8rem;
   }
@@ -438,7 +586,7 @@
     height: 18rem;
   }
 
-  .about-paragraph{
+  .about-paragraph {
     font-size: 1.04rem;
   }
 
@@ -450,7 +598,7 @@
   }
 
   .about-title,
-  .exp-title{
+  .exp-title {
     font-size: 2rem;
   }
 
@@ -473,7 +621,7 @@
     padding: 2rem;
   }
 
-  .upload{
+  .upload {
     border: 1px solid #f4c613;
     border-radius: 5px;
     width: 100%;
@@ -482,7 +630,7 @@
     align-items: center;
   }
 
-        .default{
+  .default {
     width: 8rem;
     height: 8rem;
   }
@@ -496,7 +644,6 @@
   }
 
   .footer-p {
-    font-size: .84rem;
+    font-size: 0.84rem;
   }
-
 }

@@ -42,7 +42,7 @@ body {
 }
 
 /* //////////// */
-.floating-messenger{
+/* .floating-messenger{
   padding: 1.15rem;
   background-color: #F4C613;
   border-radius: 50%;
@@ -51,6 +51,21 @@ body {
   bottom: 2.3rem;
   right: 2.3rem;
   position: fixed;
+} */
+
+.floating-messenger a{
+  padding: 1.15rem;
+  background-color: #F4C613;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  bottom: 2.3rem;
+  right: 2.3rem;
+  position: fixed;
+}
+
+.floating-messenger a:focus {
+  outline: 0px;
 }
 
 .messenger-icon{

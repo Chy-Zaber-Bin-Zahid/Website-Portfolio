@@ -21,11 +21,11 @@
 }
 
 .exp-skill-li{
-  width: 30%;
   display: flex;
   align-items: center;
-  width: 100%;
+  width:fit-content;
   justify-content: center;
+  margin-left: 40%;
 }
 
 .exp-icon{

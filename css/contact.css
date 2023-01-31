@@ -44,9 +44,9 @@
   transform: rotate(270deg);
 }
 
-.contact-middle{
+/* .contact-middle{
 
-}
+} */
 
 .con-mid-pad{
   padding: .5rem 0;
@@ -70,6 +70,7 @@ font-weight: normal;
   justify-content: left;
   align-items: center;
   width: fit-content;
+  gap: .3rem;
 }
 
 .con-mid-p a:hover {
