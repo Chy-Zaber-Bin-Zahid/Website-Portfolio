@@ -23,25 +23,103 @@ body {
   position: relative;
 }
 
-.container{
+.container {
   max-width: 130rem;
   margin: 0 auto;
 }
 
 /* grid */
-.grid{
+.grid {
   display: grid;
 }
 
-.grid-2-col{
+.grid-2-col {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-4-col{
+.grid-4-col {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* //////////// */
+/* Submitted part */
+.sub-blur {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4c613;
+  opacity: 0.8;
+  z-index: 999;
+  visibility: hidden;
+
+  animation-name: fromTop;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+}
+
+.submitted {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 999;
+
+  animation-name: fromTop;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fromTop{
+  0%{
+    transform: translateY(-100%);
+  }
+
+  100%{
+    transform: translate(0px);
+  }
+}
+
+.sub-body {
+  width: 25%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.sub-title {
+  font-size: 2.5rem;
+}
+
+.sub-btn {
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  background-color: #f4c613;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.sub-btn:hover {
+  border: 1px solid #f4c613;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* floating messenger part */
 /* .floating-messenger{
   padding: 1.15rem;
   background-color: #F4C613;
@@ -53,12 +131,12 @@ body {
   position: fixed;
 } */
 
-.floating-messenger a{
+.floating-messenger a {
   padding: 1.15rem;
-  background-color: #F4C613;
+  background-color: #f4c613;
   border-radius: 50%;
   position: absolute;
-  z-index: 999;
+  z-index: 995;
   bottom: 2.3rem;
   right: 2.3rem;
   position: fixed;
@@ -68,6 +146,6 @@ body {
   outline: 0px;
 }
 
-.messenger-icon{
+.messenger-icon {
   color: #ffffff;
 }
