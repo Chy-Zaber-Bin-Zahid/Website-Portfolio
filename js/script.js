@@ -47,22 +47,27 @@ document.querySelector(
 
 // Submitted part
 function submit() {
-  const email = document.querySelector(".email").value;
-  const name = document.querySelector(".name").value;
-  const subject = document.querySelector(".subject").value;
-  const phone = document.querySelector(".phone").value;
-  const message = document.querySelector(".message").value;
+  const email = document.querySelector(".email");
+  const name = document.querySelector(".name");
+  const subject = document.querySelector(".subject");
+  const phone = document.querySelector(".phone");
+  const message = document.querySelector(".message");
 
   if (
-    (email !== "") &
-    (name !== "") &
-    (subject !== "") &
-    (phone !== "") &
-    (message !== "")
+    (email.value !== "") &
+    (name.value !== "") &
+    (subject.value !== "") &
+    (phone.value !== "") &
+    (message.value !== "")
   ) {
     document.querySelector(".fill").style.display = "none";
     document.querySelector(".sub-blur").style.visibility = "visible";
     document.querySelector(".submitted").style.visibility = "visible";
+    email.value = "";
+    name.value = "";
+    subject.value = "";
+    phone.value = "";
+    message.value = "";
   } else {
     document.querySelector(".fill").style.display = "block";
   }
